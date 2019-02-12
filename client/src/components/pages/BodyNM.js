@@ -7,7 +7,7 @@ const BodyNM = () => {
             
                 <a href="" className="logo">
                  <span className="symbol"></span><span className="title">
-                 <h1>Nelson Mandela </h1></span>
+                 <h2>Nelson Mandela </h2></span>
                   </a>
                 <span className="image left"><img src="images/NMchild.jpg" alt=""></img></span>
                 <p align="left">Nelson Rolihlahla Mandela was born on 18 July 1918 in the village of Mvezo in Umtata, then part of South Africa's Cape Province. Nelson was a nonviolence anti-apartheid activist, politician and philanthropist who became South Africa’s first black president from 1994 to 1999. Becoming actively involved in the anti-apartheid movement in his 20s, Mandela joined the African National Congress in 1942. For 20 years, he directed a campaign of peaceful, nonviolent defiance against the South African government and its racist policies. Beginning in 1962, Mandela spent 27 years in prison for political offenses. In 1993, Mandela and South African President F.W. de Klerk were jointly awarded the Nobel Peace Prize for their efforts to dismantle the country's apartheid system. For generations to come, Nelson Mandela will continue to be a source of inspiration for civil rights activists worldwide.</p>

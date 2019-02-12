@@ -6,7 +6,7 @@ const Donatepage = () => {
             <div className="inner">
                <br></br>
                 <header>
-                    <h1>Looking to join the cause? Feel free to donate to education programs across the country.</h1>
+                    <h2>Looking to join the cause? Feel free to donate to <br></br> education programs across the country.</h2>
                 </header>
                 </div>
                 </div>

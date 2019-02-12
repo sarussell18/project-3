@@ -7,7 +7,7 @@ const Bodyad = () => {
             
                 <a href="" className="logo">
                  <span className="symbol"></span><span className="title">
-                 <h2> Angela Davis</h2></span>
+                 <h1> Angela Davis</h1></span>
                   </a>
                 <span className="image left"><img src="images/adChild.jpg" alt=""></img></span>
                 <p align="left">Born on January 26, 1944, in Birmingham, Alabama. Angela Davis is best known as a radical African American educator and activist for civil rights and other social issues. She knew about racial prejudice from her experiences with discrimination growing up in Alabama. As a teenager, Davis organized interracial study groups, which were broken up by the police. </p>

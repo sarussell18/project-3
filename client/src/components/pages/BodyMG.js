@@ -7,7 +7,7 @@ const BodyMG = () => {
             
                 <a href="" className="logo">
                  <span className="symbol"></span><span className="title">
-                 <h1>Marty Ginsberg </h1></span>
+                 <h2>Marty Ginsberg </h2></span>
                   </a>
                 <span className="image left"><img src="images/MGyoung.jpg" alt=""></img></span>
                 <p align="left">Martin David Ginsburg was born in Brooklyn, to Evelyn (née Bayer) and Morris Ginsburg, a department store executive, and grew up on New York's Long Island. 

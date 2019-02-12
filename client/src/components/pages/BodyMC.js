@@ -7,7 +7,7 @@ const BodyMC = () => {
             
                 <a href="" className="logo">
                  <span className="symbol"></span><span className="title">
-                 <h2> Marie Curie</h2></span>
+                 <h1> Marie Curie</h1></span>
                   </a>
                 <span className="image left"><img src="images/mcChild.jpg" alt=""></img></span>
                 <p align="left">Born Maria Sklodowska on November 7, 1867, Marie Curie became the first woman to win a Nobel Prize and the first person—man or woman—to win the award twice. Curie's efforts, with her husband Pierre Curie, led to the discovery of polonium and radium and, after Pierre's death, the further development of X-rays. The famed scientist died on July 4, 1934. </p>
