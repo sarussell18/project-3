@@ -1,0 +1,33 @@
+import React from "react";
+
+const BodyER = () => {
+    return (
+        <div id="main">
+            <div className="inner">
+            
+                <a href="" className="logo">
+                 <span className="symbol"></span><span className="title">
+                 <h1> Eleanore Roosevelt</h1></span>
+                  </a>
+                <span className="image left"><img src="images/erYoung.jpg" alt="" ></img></span>
+                <p align="left">Anna Eleanor Roosevelt was born on October 11, 1884, in New York City. Her father, Elliott Roosevelt (1860-1894) was the younger brother of Theodore Roosevelt, and her mother, Anna Hall (1863-1892), was from a wealthy New York family.</p>
+                <p align="left">Roosevelt, an awkward, serious child, was educated by private tutors until age 15, when she was sent to Allenswood Academy, a school for girls in England. She excelled under the mentorship of the school’s headmistress, Marie Souvestre (1830-1905), who promoted social responsibility and independence for young women. Roosevelt’s formal education ended at age 18, when she returned to New York City and made her social debut at the Waldorf-Astoria Hotel. She then became actively involved with social reform work, serving as a volunteer teacher for impoverished immigrant children at Manhattan’s Rivington Street Settlement House and joining the National Consumers’ League, whose mission was to end unsafe working conditions and labor practices in factories and other businesses.</p>
+                <p align="left">On March 17, 1905, 20-year-old Eleanor married Franklin Roosevelt, a 22-year-old Harvard University student and her fifth cousin once removed. The two had met as children and became reacquainted after Eleanor returned from school in England. Their wedding took place at the home of one of Eleanor’s relatives on Manhattan’s Upper East Side, and the bride was escorted down the aisle by then-President Theodore Roosevelt. Franklin and Eleanor had six children, five of whom survived to adulthood: Anna (1906-1975), James (1907-1991), Elliott (1910-1990), Franklin Jr. (1914-1988) and John (1916-1981).</p>
+                <span className="image main"><img src="images/erHusband.jpeg" alt="" /></span>
+                <p align="left">In 1910, Franklin Roosevelt began his political career when he was elected to the New York State Senate. Three years later, he was appointed assistant secretary of the U.S. Navy, a position he held until 1920, when he made an unsuccessful run for the U.S. vice presidency on a ticket headed by James Cox (1870-1957), an Ohio governor. In addition to raising her family during these years, Eleanor Roosevelt volunteered with the American Red Cross and in Navy hospitals during World War I (1914-1918). In the 1920s, she became active in Democratic Party politics and was also involved with such activist organizations as the Women’s Union Trade League and the League of Women Voters. Additionally, she cofounded Val-Kill Industries, a nonprofit furniture factory in Hyde Park, New York (where the Roosevelt family estate, Springwood, was located), and taught American history and literature at the Todhunter School, a private Manhattan girls’ school.</p>
+                <p align="left">The Roosevelts entered the White House in the midst of the Great Depression(which began in 1929 and lasted approximately a decade), and the president and Congress soon implemented a series of economic recovery initiatives known as the New Deal. As first lady, Eleanor traveled across the United States, acting as her husband’s eyes and ears and reporting back to him after she visited government institutions and programs and numerous other facilities. She was an early champion of civil rights for African Americans, as well as an advocate for women, American workers, the poor and young people. She also supported government-funded programs for artists and writers. Roosevelt encouraged her husband to appoint more women to federal positions, and she held hundreds of press conferences for female reporters only at a time when women were typically barred from White House press conferences. Additionally, Roosevelt wrote a syndicated newspaper column entitled “My Day” from December 1935 until shortly before her death in 1962. She used the column to share information about her activities and communicate her positions on a wide range of social and political issues.</p>
+                <section>
+                    <h1>“No one can make you feel inferior without your consent.”</h1>
+                </section>
+                <p align="left">During World War II (1939-1945), Roosevelt advocated on behalf of European refugees who wanted to come to the United States. She also promoted issues that were important to American troops, worked to boost soldiers’ morale, encouraged volunteerism on the home front and championed women employed in the defense industry. She also pushed for the continuation of New Deal programs during the war, against the wishes of some of her husband’s advisors.</p>
+                <p align="left">After the president’s death, Eleanor Roosevelt returned to New York, splitting her time between her Val-Kill cottage (the former furniture factory was turned into a home) in Hyde Park and an apartment in New York City. There was speculation she would run for public office; instead, she chose to remain highly active as a private citizen.</p>
+                <span className="image main"><img src="images/erSpeech.jpg" alt="" /></span>
+                <p align="left">From 1946 to 1953, Roosevelt served as a U.S. delegate to the United Nations, where she oversaw the drafting and passage of the Universal Human Declaration of Rights. Roosevelt considered the document, which continues to serve as a model for how people and nations should treat each other, one of her most significant achievements. From 1961 until her death the following year, Roosevelt headed the first Presidential Commission on the Status of Women, at the request of President John Kennedy (1917-1963). She also served on the board of numerous organizations, including the National Association for the Advancement of Colored People (NAACP) and the Advisory Council for the Peace Corps.</p>
+                <p align="left">Roosevelt remained involved in Democratic Party activities during her post-White House years, campaigning for candidates around the country. Additionally, she hosted radio programs and a television news show, and continued to write her newspaper column and give lectures. Over the course of her life, Roosevelt wrote 27 books and more than 8,000 columns.</p>
+            </div>
+        </div>
+    );
+}
+
+
+export default BodyER;
