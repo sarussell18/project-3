@@ -1,0 +1,12 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'EB Garamond', serif;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #666;
+}
+.sticky-top {
+    background-color: white !important;
+}

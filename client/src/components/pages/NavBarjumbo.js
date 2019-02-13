@@ -1,28 +1,32 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-const NavBar = () => {
-    return (
-        <div>
-            <header id="header">
-                <div className="inner">
-                    <nav>
-                        <ul>
-                            <li><a href="#menu">Menu</a></li>
-                        </ul>
-                    </nav>
+import React, { Component } from 'react';
+import { Nav, Navbar, Container } from 'react-bootstrap';
+import './Navbar.css';
 
-                </div>
-            </header>
-            <nav id="menu"><div className="inner">
-                <h2>Menu</h2>
-						<ul>
-							<li><Link to ="/">Home</Link></li>
-							<li><Link to ="/donate">Donate</Link></li>
-							<li><a href="generic.html">Login</a></li>
-						</ul>
-            </div><a className="close" href="#menu">Close</a></nav>
-        </div>
-    )
-};
 
-export default NavBar;
+class NavBarjumbo extends Component {
+    render() {
+        return (
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="sticky-top">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav" >
+                    <Container fluid>
+                        <Nav className="justify-content-end" activeKey="/">
+                            <Nav.Item>
+                                <Nav.Link href="/">Home</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="/donate">Donate</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="">Login</Nav.Link>
+                            </Nav.Item>
+                        </Nav>
+                 </Container>
+                </Navbar.Collapse>
+            </Navbar>
+        )
+    }
+}
+
+
+export default NavBarjumbo;

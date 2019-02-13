@@ -33,8 +33,7 @@ class App extends Component {
       <div id="wrapper">
       <NavBarjumbo  />
 
-      {this.props.location.pathname === '/donate' && <NavBarjumbo />}
-      {this.props.location.pathname === '/' ? <Jumbotron /> :<NavBar /> }
+      {this.props.location.pathname === '/' ? <Jumbotron />: "" }
 
       <Switch>
         <Route path='/marie' component={BodyMC} />
