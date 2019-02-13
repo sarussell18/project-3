@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom';
 import "./App.css";
 
 import NavBarjumbo from './components/pages/NavBarjumbo'
@@ -16,20 +16,26 @@ import BodyMG from './components/pages/BodyMG'
 import BodyRBG from './components/pages/BodyRBG'
 import Bodyad from './components/pages/Bodyad'
 import BodyMC from './components/pages/BodyMC'
+import Donorcomponentcontainer from './components/pages/Donorcomponentcontainer'
 import Jumbotron from './components/pages/Jumbotron'
-
+import NavBar from './components/pages/NavBar'
+import Footer from './components/pages/Footer'
 
 
 class App extends Component {
+
   render() {
 
 
+    console.log(this.props)
     return (
       <div className="App">
       <div id="wrapper">
       <NavBarjumbo  />
-      <Jumbotron />
-      <Router>
+
+      {this.props.location.pathname === '/donate' && <NavBarjumbo />}
+      {this.props.location.pathname === '/' ? <Jumbotron /> :<NavBar /> }
+
       <Switch>
         <Route path='/marie' component={BodyMC} />
         <Route path='/angela' component={Bodyad} />
@@ -43,13 +49,14 @@ class App extends Component {
         <Route path='/frida' component={BodyFK} />
         <Route path='/eleanor' component={BodyER} />
         <Route path='/mustafa' component={BodyMA} />
+        <Route path='/donate' component={Donorcomponentcontainer}/>
         <Route path='/' component={Tiles} />
       </Switch>
-      </Router>
+      <Footer />
      </div>
     </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

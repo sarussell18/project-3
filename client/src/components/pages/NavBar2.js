@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 const NavBar2 = () => {
     return (
         <div>
@@ -15,13 +15,12 @@ const NavBar2 = () => {
             </header>
 
             <nav id="menu"><div className="inner">
-                <h2>Menu</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="generic.html">Quiz</a></li>
-                    <li><a href="generic.html">Donate</a></li>
-                    <li><a href="generic.html">Login</a></li>
-                </ul>
+            <h2>Menu</h2>
+						<ul>
+							<li><Link to ="/">Home</Link></li>
+							<li><Link to ="/donate">Donate</Link></li>
+							<li><a href="generic.html">Login</a></li>
+						</ul>
             </div><a className="close" href="#menu">Close</a></nav>
         </div>
     )
