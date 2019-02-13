@@ -18,7 +18,7 @@ class NavBarjumbo extends Component {
                                 <Nav.Link to ="/donate">Donate</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link to ="">Login</Nav.Link>
+                                <Nav.Link to ="/login">Login</Nav.Link>
                             </Nav.Item>
                         </Nav>
                  </Container>
