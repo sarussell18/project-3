@@ -5,7 +5,7 @@ const BodySA = () => {
         <div id="main">
             <div className="inner">
             
-                <a href="" className="logo">
+                <a className="logo">
                  <span className="symbol"></span><span className="title">
                  <h1> Susan B. Anthony</h1></span>
                   </a>

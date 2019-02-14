@@ -5,7 +5,7 @@ const BodyNM = () => {
         <div id="main">
             <div className="inner">
             
-                <a href="" className="logo">
+                <a className="logo">
                  <span className="symbol"></span><span className="title">
                  <h2>Nelson Mandela </h2></span>
                   </a>

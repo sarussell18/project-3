@@ -12,10 +12,10 @@ class NavBarjumbo extends Component {
                     <Container fluid>
                         <Nav className="justify-content-end" activeKey="/">
                             <Nav.Item>
-                                <Nav.Link to ="/">Home</Nav.Link>
+                                <Nav.Link href="/">Home</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link to ="/donate">Donate</Nav.Link>
+                                <Nav.Link href="/donate">Donate</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link to ="">Login</Nav.Link>
