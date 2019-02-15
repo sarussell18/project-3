@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router
 import "./App.css";
 
 import NavBarjumbo from './components/pages/NavBarjumbo'
+import Login from './components/pages/Login'
+import Register from './components/pages/Register'
 import Tiles from './components/pages/Tiles'
 import BodyMA from './components/pages/BodyMA'
 import BodyER from './components/pages/BodyER'
@@ -23,19 +25,36 @@ import Footer from './components/pages/Footer'
 
 
 class App extends Component {
+  state={
+    isLoggedIn: false
+  }
 
+  logUserIn = (user) => {
+    console.log(user)
+    this.setState({
+      isLoggedIn: true,
+      user: user
+    })
+
+  }
+  logOutUser = () => {
+    this.setState({
+      user: null
+    })
+  }
   render() {
 
-
-    console.log(this.props)
+    console.log(this.state)
     return (
       <div className="App">
       <div id="wrapper">
-      <NavBarjumbo  />
+      <NavBarjumbo  user={this.state.user} logout={this.logOutUser}/>
 
       {this.props.location.pathname === '/' ? <Jumbotron />: "" }
 
       <Switch>
+        <Route path='/register' render={(props) => <Register logUserIn={(user) => this.logUserIn(user)} {...props}/>} />
+        <Route path='/login'  render={(props) => <Login logUserIn={(user) => this.logUserIn(user)} {...props}/>}  />
         <Route path='/marie' component={BodyMC} />
         <Route path='/angela' component={Bodyad} />
         <Route path='/ruth' component={BodyRBG} />
