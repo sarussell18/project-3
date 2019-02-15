@@ -37,19 +37,24 @@ class App extends Component {
     })
 
   }
+  logOutUser = () => {
+    this.setState({
+      user: null
+    })
+  }
   render() {
 
     console.log(this.state)
     return (
       <div className="App">
       <div id="wrapper">
-      <NavBarjumbo  />
+      <NavBarjumbo  user={this.state.user} logout={this.logOutUser}/>
 
       {this.props.location.pathname === '/' ? <Jumbotron />: "" }
 
       <Switch>
         <Route path='/register' render={(props) => <Register logUserIn={(user) => this.logUserIn(user)} {...props}/>} />
-        <Route path='/login' component={Login} />
+        <Route path='/login'  render={(props) => <Login logUserIn={(user) => this.logUserIn(user)} {...props}/>}  />
         <Route path='/marie' component={BodyMC} />
         <Route path='/angela' component={Bodyad} />
         <Route path='/ruth' component={BodyRBG} />

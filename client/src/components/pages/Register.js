@@ -11,9 +11,8 @@ class Register extends Component {
   state={
     email: '',
     password: '',
-
   }
-  
+
   onSubmit = (e) => {
     console.log(this.state)
     e.preventDefault()
@@ -41,7 +40,7 @@ class Register extends Component {
         </label>
         <label>
           Password:
-          <input name='password' onChange={this.onChange} value={this.state.password}/>
+          <input name='password' type='password' onChange={this.onChange} value={this.state.password} style={{}}/>
         </label>
         <button onClick={this.onSubmit} type='submit'>Submit</button>
       </form>

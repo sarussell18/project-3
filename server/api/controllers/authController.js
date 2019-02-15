@@ -23,7 +23,7 @@ exports.user_login = (req, res, next) => {
           role: user.role
         }
         // asycnronous
-        jwt.sign(userData, process.env.JWT_SECRET, tokenExpTime, (err, token)=>{
+        jwt.sign(userData, 'test123Token', tokenExpTime, (err, token)=>{
           if(err) {
             res.status(400).json({message: 'error creating auth token'})
           } else {
@@ -58,8 +58,8 @@ exports.user_signup = (req, res, next) => {
               User.create({
                 email,
                 password: hash,
-                
-                
+
+
               })
                 .then( result =>{
                   console.log('creation result======>',result)
