@@ -6,7 +6,7 @@ const Tiles = () => {
             <div className="inner">
                 <header>
                     <br/>
-                    <h2>Reclaiming Pink noun: a movement that smashes gender stereotypes and illustrates that women and men
+                    <h2 align="left">Reclaiming Pink noun: a movement that smashes gender <br/>stereotypes and illustrates that women and men
                     are equally capable of being leaders, innovators, and catalysts for change.</h2>
                 </header>
                 <section className="tiles">
