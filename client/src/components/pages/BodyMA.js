@@ -5,7 +5,7 @@ const BodyMA = () => {
         <div id="main">
             <div className="inner">
             
-                <a href="" className="logo">
+                <a className="logo">
                  <span className="symbol"></span><span className="title">
                  <h2>Mustafa Kemal Atatürk</h2></span>
                   </a>

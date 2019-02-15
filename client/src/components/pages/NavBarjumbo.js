@@ -14,10 +14,20 @@ class NavBarjumbo extends Component {
                     <Container fluid>
                         <Nav className="justify-content-end" activeKey="/">
                             <Nav.Item>
+<<<<<<< HEAD
                                 <Nav.Link><Link to='/'>Home</Link></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link ><Link to='/donate'>Donate</Link></Nav.Link>
+=======
+                                <Nav.Link href="/">Home</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link href="/donate">Donate</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link to ="/login">Login</Nav.Link>
+>>>>>>> master
                             </Nav.Item>
                             {/* <Nav.Item> */}
                                 {!this.props.user ?(
